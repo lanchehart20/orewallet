@@ -1,0 +1,53 @@
+.successContainer {
+  min-height: 400px;
+  width: 100%;
+
+  .itemWrapper {
+    // border: 3px solid purple;
+    height: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .logoContainer {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+
+      //   border: 3px solid blue;
+      .ImageContainer {
+        height: 200px;
+        width: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        background-image: url("../../assets/error.png");
+      }
+    }
+  }
+  .parentContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .textContainer {
+      width: 80%;
+      //   border: 3px solid blue;
+      font-weight: bolder;
+      text-align: center;
+      color: red;
+      button {
+        margin-top: 20px;
+        // border: 3px solid green;
+        display: block;
+        width: 100%;
+        background: #3182ce;
+        font-family: Montserrat;
+        border: none;
+        color: #ffffff;
+        font-weight: bolder;
+        padding: 15px 30px;
+      }
+    }
+  }
+}
